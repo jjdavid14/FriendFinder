@@ -10,5 +10,5 @@
 
 ![Home page](/images/home.jpg) | ![Survey page](/images/survey.jpg) | ![Result shown](/images/result.jpg)
 ------------------------------ | ---------------------------------- | -----------------------------------
-- [ ] Start the survey | - [x] Start the survey | - [x] Start the survey 
-- [ ] Submit the form | - [ ] Submit the form | - [x] Submit the form
+- [ ] Start the survey         | - [x] Start the survey             | - [x] Start the survey 
+- [ ] Submit the form          | - [ ] Submit the form              | - [x] Submit the form
