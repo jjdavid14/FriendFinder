@@ -8,19 +8,19 @@
 
 **Steps to Run**
 
-#####Step 1
+##### Step 1
 ![Home page](/images/home.jpg)
 - [ ] Start the survey
 - [ ] Submit the form
 
 ---
-#####Step 2
+##### Step 2
 ![Survey page](/images/survey.jpg)
 - [x] Start the survey
 - [ ] Submit the form
 
 ---
-#####Step 3
+##### Step 3
 ![Result shown](/images/result.jpg)
 - [x] Start the survey
 - [x] Submit the form
