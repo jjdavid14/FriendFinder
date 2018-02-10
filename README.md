@@ -12,12 +12,12 @@
 - [ ] Start the survey
 - [ ] Submit the form
 
-
+---
 ![Survey page](/images/survey.jpg)
 - [x] Start the survey
 - [ ] Submit the form
 
-
+---
 ![Result shown](/images/result.jpg)
 - [x] Start the survey
 - [x] Submit the form
