@@ -28,6 +28,9 @@ module.exports = function(app) {
     // This will send out the friend matched with user
     // req.body is available since we're using the body-parser middleware
 
+    // Add the user to the friends array
+    allFriends.push(req.body);
+
     // Get the user's response
     // This is an array.
     var userResponse = req.body['scores[]'];
@@ -61,14 +64,10 @@ module.exports = function(app) {
         // Also keep track of the friend's index that had this low score
         indexOfFriend = i;
       }
-
-
     }
-
 
     // We return the best match for the user based on the "compatibility" score
     res.json(allFriends[indexOfFriend]);
-
   });
 
 };
