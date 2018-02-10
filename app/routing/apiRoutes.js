@@ -15,7 +15,6 @@ module.exports = function(app) {
   // API GET Requests
   // Display the JSON of all friends available
   // ---------------------------------------------------------------------------
-
   app.get("/api/friends", function(req, res) {
     res.json(allFriends);
   });
@@ -25,19 +24,15 @@ module.exports = function(app) {
   // When a user submits form data (a JSON object) the user response from in the JSON
   // will be analyzed and compared to each friend in the friends JavaScript array.
   // ---------------------------------------------------------------------------
-
-// TODO: Push friend entry into array
   app.post("/api/friends", function(req, res) {
     // This will send out the friend matched with user
     // req.body is available since we're using the body-parser middleware
-    console.log(req.body);
-    // TODO: Logic to matching goes here.
 
     // Get the user's response
     // This is an array.
-    var userResponse = req.body.scores;
+    var userResponse = req.body['scores[]'];
     // Lowest value of difference from user (least "compatibility" score)
-    var least = -1;
+    var least = 999;
     // Index of friend with lowest value of difference from user
     var indexOfFriend = -1;
 
