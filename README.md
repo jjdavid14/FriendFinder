@@ -8,7 +8,16 @@
 
 **Steps to Run**
 
-![Home page](/images/home.jpg) | ![Survey page](/images/survey.jpg) | ![Result shown](/images/result.jpg)
------------------------------- | ---------------------------------- | -----------------------------------
-- [ ] Start the survey         | - [x] Start the survey             | - [x] Start the survey 
-- [ ] Submit the form          | - [ ] Submit the form              | - [x] Submit the form
+![Home page](/images/home.jpg)
+- [ ] Start the survey
+- [ ] Submit the form
+
+
+![Survey page](/images/survey.jpg)
+- [x] Start the survey
+- [ ] Submit the form
+
+
+![Result shown](/images/result.jpg)
+- [x] Start the survey
+- [x] Submit the form
